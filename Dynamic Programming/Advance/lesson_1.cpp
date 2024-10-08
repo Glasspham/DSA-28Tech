@@ -3,14 +3,6 @@ using namespace std;
 
 using ll = long long;
 int f[1001][1001];
-void in(int n, int m){
-    ofstream file("Text.txt");
-    for(int i = 1; i <= n; ++i){
-        for(int j = 1; j <= m; ++j)
-            file << f[i][j] << " ";
-        file << "\n";
-    }
-}
 
 int main(){
     ios::sync_with_stdio(false);
@@ -30,7 +22,6 @@ int main(){
                 f[i][j] = max({f[i - 1][j], f[i][j -  1]});
         }
     }
-    in(n, m);
     cout << f[n][m];
     return 0;
 }
