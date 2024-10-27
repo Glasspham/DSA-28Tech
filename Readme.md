@@ -14,7 +14,7 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 -   [Link video buổi chính thức](https://drive.google.com/drive/folders/14U4Yy9tU8CFFMdlsee5fXsahWfSxOAnt?usp=drive_link)
 -   [Nội dung buổi trợ giảng](https://docs.google.com/spreadsheets/d/1Pu1g3r66xsHbUzaMXQdUi-sbpeu2YLBu/edit?gid=1744817544#gid=1744817544)
 -   [Link video buổi trợ giảng](https://drive.google.com/drive/folders/16am4E6lkk1ZZrSkhlfp0Re9SvojpaqbJ?usp=drive_link)
--   [Slide bài giảng]()
+-   [Slide bài giảng](./Lecture_slides/)
 
 **Lưu ý:** Ở buổi chính 2 video 15 và 16 giống nhau!
 
