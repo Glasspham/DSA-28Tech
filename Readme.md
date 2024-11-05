@@ -16,7 +16,10 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 -   [Link video buổi trợ giảng](https://drive.google.com/drive/folders/16am4E6lkk1ZZrSkhlfp0Re9SvojpaqbJ?usp=drive_link)
 -   [Slide bài giảng](./Lecture_slides/)
 
-**Lưu ý:** Ở buổi chính 2 video 15 và 16 giống nhau!
+**Lưu ý:**
+
+-   Ở buổi chính 2 video 15 và 16 giống nhau!
+-   Ở buổi trợ giảng có 2 video 21 và 22 giống nhau!
 
 ## Chia sẻ link file bài tập
 
@@ -49,16 +52,21 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 ### 1. Thư viện
 
 Vì viết bằng `Text editor: Visual Studio Code` [(vscode)](https://code.visualstudio.com/) + môi trường [MSYS2](https://www.msys2.org/) hoặc [MinGW](https://sourceforge.net/projects/mingw/) cho `C++` nên có thư viện tổng hợp:
+
 ```
 #include<bits/stdc++.h>
 ```
+
 thì có nhiều IDE khác không có, nên các bạn tự sửa phần thư viện nha.
 
 ### 2. Cấu trúc file code
+
 Trong bài có sử dụng **preprocessor directives** (hướng dẫn trình biên dịch)
 Trong bài sài nhiều nhất là `#if` và `#endif` là 2 thứ luôn đi chung với nhau.
+
 ```
 #if n   Nếu n là 1 thì code chạy
         Nếu n là 0 thì code không thể chạy
 ```
+
 Và `#endif` có thể đi cùng với nhiều **preprocessor directives** khác nữa
