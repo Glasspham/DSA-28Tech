@@ -25,27 +25,27 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 
 ### Nội dung chính của khóa DSA
 
-1. [vector & pair](./Vector-Pair/Vector%20and%20Pair.pdf)
-2. [set & map](./Set-Map/Set%20and%20Map.pdf)
+1. [Vector & pair](./Vector-Pair/Vector%20and%20Pair.pdf)
+2. [Set & map](./Set-Map/Set%20and%20Map.pdf)
 3. [1D array](./1D_Array/1D%20array.pdf)
 4. [2D array](./2D%20array/2D%20array.pdf)
-5. [prefix sum & 2 Pointer & sliding window.pdf](./PS-DA-SW-TP/Prefix%20sum%20-%202%20Pointer%20-%20Sliding%20Window.pdf)
-6. [string](https://github.com/Glasspham/DSA-28Tech/blob/main/String/String.pdf)
-7. [sort & search](./Sort-Search/Sort%20and%20Search.pdf)
-8. [generation](./Generation-Backtracking/Generation/Generation.pdf)
-9. [backtracking - branch bound](./Generation-Backtracking/Backtracking%20-%20Branch%20bound/Backtracking%20-%20Branch%20bound.pdf)
-10. [greedy](./Greedy/Greedy.pdf)
-11. [divide and conquer](./Divide_and_Conquer/Divide%20and%20Conquer.pdf)
-12. [dynamic programming basic](./Dynamic_Programming/Basic/Basic.pdf)
-13. [dynamic programming advance](./Dynamic_Programming/Advance/Advance.pdf)
-14. [graph](./Graph/Graph.pdf)
-15. [stack & queue](./Stack-Queue/Stack%20and%20Queue.pdf)
-16. [tree binary]()
+5. [Prefix sum & 2 Pointer & sliding window](./PS-DA-SW-TP/Prefix%20sum%20-%202%20Pointer%20-%20Sliding%20Window.pdf)
+6. [String](https://github.com/Glasspham/DSA-28Tech/blob/main/String/String.pdf)
+7. [Sort & search](./Sort-Search/Sort%20and%20Search.pdf)
+8. [Generation](./Generation-Backtracking/Generation/Generation.pdf)
+9. [Backtracking - branch bound](./Generation-Backtracking/Backtracking%20-%20Branch%20bound/Backtracking%20-%20Branch%20bound.pdf)
+10. [Greedy](./Greedy/Greedy.pdf)
+11. [Divide and conquer](./Divide_and_Conquer/Divide%20and%20Conquer.pdf)
+12. [Dynamic programming basic](./Dynamic_Programming/Basic/Basic.pdf)
+13. [Dynamic programming advance](./Dynamic_Programming/Advance/Advance.pdf)
+14. [Graph](./Graph/Graph.pdf)
+15. [Stack & queue](./Stack-Queue/Stack%20and%20Queue.pdf)
+16. [Tree binary]()
 
 ### Nội dung ôn lại của lập trình C++
 
-1. [function]()
-2. [recursion]()
+1. [Function]()
+2. [Recursion]()
 
 ## Một số lưu ý khi coi bài
 
