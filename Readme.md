@@ -18,7 +18,7 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 
 **Lưu ý:**
 
--   Ở buổi chính 2 video 15 và 16 giống nhau!
+-   Ở buổi chính thức có 2 video 15 và 16 giống nhau!
 -   Ở buổi trợ giảng có 2 video 21 và 22 giống nhau!
 
 ## Chia sẻ link file bài tập
