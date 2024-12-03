@@ -10,10 +10,10 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 
 ## Chia sẻ link video khóa
 
--   [Nội dung buổi chính thức](https://docs.google.com/spreadsheets/d/1xVp746RJKLZRBQ-tv7u85HsCk-XzXcnG/edit?rtpof=true)
--   [Link video buổi chính thức](https://drive.google.com/drive/folders/14U4Yy9tU8CFFMdlsee5fXsahWfSxOAnt?usp=drive_link)
--   [Nội dung buổi trợ giảng](https://docs.google.com/spreadsheets/d/1Pu1g3r66xsHbUzaMXQdUi-sbpeu2YLBu/edit?gid=1744817544#gid=1744817544)
--   [Link video buổi trợ giảng](https://drive.google.com/drive/folders/16am4E6lkk1ZZrSkhlfp0Re9SvojpaqbJ?usp=drive_link)
+-   [Nội dung buổi chính thức](https://pd.heracle.net/drive/s/twoiTsPwgyh9V864E83vDWxaWO8y53)
+-   [Link video buổi chính thức](https://terabox.com/s/1GRHPmsKUvcTbq8h9xS2SZA)
+-   [Nội dung buổi trợ giảng](https://pd.heracle.net/drive/s/vapV2of7FO5SGuYsZ5fFfz0xEMfgBi)
+-   [Link video buổi trợ giảng](https://terabox.com/s/1Fg2CATlzHBM8-mwwcDrn1Q)
 -   [Slide bài giảng](./Lecture_slides/)
 
 **Lưu ý:**
