@@ -15,11 +15,7 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 -   [Nội dung buổi trợ giảng](https://pd.heracle.net/drive/s/vapV2of7FO5SGuYsZ5fFfz0xEMfgBi)
 -   [Link video buổi trợ giảng](https://terabox.com/s/1Fg2CATlzHBM8-mwwcDrn1Q)
 -   [Slide bài giảng](./Lecture_slides/)
-
-**Lưu ý:**
-
--   Ở buổi chính thức có 2 video 15 và 16 giống nhau!
--   Ở buổi trợ giảng có 2 video 21 và 22 giống nhau!
+-   [Link video lý thuyết số](https://terabox.com/s/1VJlH693ByCeT0ceQzsxBtA)
 
 ## Chia sẻ link file bài tập
 
@@ -29,7 +25,7 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 2. [Set & map](./Set-Map/Set%20and%20Map.pdf)
 3. [1D array](./1D_Array/1D%20array.pdf)
 4. [2D array](./2D%20array/2D%20array.pdf)
-5. [Prefix sum & 2 Pointer & sliding window](./PS-DA-SW-TP/Prefix%20sum%20-%202%20Pointer%20-%20Sliding%20Window.pdf)
+5. [Prefix sum & 2 pointer & sliding window](./PS-DA-SW-TP/Prefix%20sum%20-%202%20Pointer%20-%20Sliding%20Window.pdf)
 6. [String](https://github.com/Glasspham/DSA-28Tech/blob/main/String/String.pdf)
 7. [Sort & search](./Sort-Search/Sort%20and%20Search.pdf)
 8. [Generation](./Generation-Backtracking/Generation/Generation.pdf)
@@ -40,7 +36,7 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 13. [Dynamic programming advance](./Dynamic_Programming/Advance/Advance.pdf)
 14. [Graph](./Graph/Graph.pdf)
 15. [Stack & queue](./Stack-Queue/Stack%20and%20Queue.pdf)
-16. [Tree binary]()
+16. [Tree binary](./Tree_Binary/Binary%20Tree.pdf)
 
 ### Nội dung ôn lại của lập trình C++
 
