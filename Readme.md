@@ -4,6 +4,16 @@
 
 Cấu trúc dữ liệu & giải thuật (Data Structure & Algorithms) còn viết tắt là DSA. Đây là khóa DSA của 28Tech (27/03/2023-19/04/2023).
 
+## Một số lời nhắn nhủ
+
+Đây là Repository chia sẻ miễn phí khóa học DSA.
+
+Khóa học này được mình mua lại từ các bạn rao bán trên mạng, với mục đích chia sẻ lại miễn phí cho các bạn muốn học DSA
+
+_Repository chỉ mang mục đích chia sẻ._
+
+Dành cho những bạn có điều kiện, hãy tham gia khóa học trực tiếp cùng tác giả để luôn được cập nhật kiến thức và nhận được hỗ trợ tốt nhất
+
 ## Nói về Repository
 
 Các bài tập chủ yếu nằm trong những video sửa bài tập.
@@ -43,7 +53,7 @@ Các bài tập chủ yếu nằm trong những video sửa bài tập.
 1. [Function]()
 2. [Recursion]()
 
-## Một số lưu ý khi coi bài
+## Một số lưu ý khi coi code tham khảo
 
 ### 1. Thư viện
 
@@ -65,4 +75,4 @@ Trong bài sài nhiều nhất là `#if` và `#endif` là 2 thứ luôn đi chun
         Nếu n là 0 thì code không thể chạy
 ```
 
-Và `#endif` có thể đi cùng với nhiều **preprocessor directives** khác nữa
+Và `#endif` có thể đi cùng với nhiều **preprocessor directives** khác nữa.
