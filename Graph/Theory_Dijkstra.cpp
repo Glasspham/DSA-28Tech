@@ -31,7 +31,7 @@ void Dijkstra(int s) {
             }
         }
     }
-    for(int i = 1; i <= n; ++i) cout << d[  i] << ' ';
+    for(int i = 1; i <= n; ++i) cout << d[i] << ' ';
 }
 
 int main() {
