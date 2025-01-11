@@ -10,11 +10,12 @@ vector<bool> Prime(MAXN + 1, true);
 
 void sieve() {
     Prime[0] = Prime[1] = false;
-    for(int i = 2; i <= 1e4; ++i)
-        if(Prime[i])
+    for(int i = 2; i <= 1e4; ++i) {
+        if(Prime[i]) {
             for(int j = 2 * i; j <= MAXN; j += i)
                 Prime[j] = false;
-
+        }
+    }
     for(int i = 2; i <= MAXN; ++i){
         dp[i] = dp[i - 1];
         if(Prime[i])

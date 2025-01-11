@@ -3,7 +3,8 @@ using namespace std;
 
 using ll = long long;
 ll mod = 1e9 + 7;
-ll sieveFibonacci[1000001];
+
+#if 1 // Matrix and Binary power
 struct Matrix{
     ll dp[2][2];
 };
@@ -29,7 +30,6 @@ Matrix powMod(Matrix a, int n){
     return x * x * a;
 }
 
-
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -41,3 +41,23 @@ int main(){
     cout << res.dp[0][1];
     return 0;
 }
+#endif
+
+#if 1 // Array
+ll f[1000001];
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    f[0] = 0;
+    f[1] = 1;
+    for(int i = 2; i < 1000001; ++i) {
+        f[i] = f[i - 1] + f[i - 2];
+        f[i] %= mod;
+    }
+    ll n; cin >> n;
+    while(n--) {
+        int x; cin >> x;
+        cout << f[x] << endl;
+    }
+}
+#endif
