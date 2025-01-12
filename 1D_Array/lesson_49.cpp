@@ -1,29 +1,32 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 #define ll long long
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
-    int n; cin >> n;
+
+    int n;
+    cin >> n;
     string arr;
-    for(int i = 0; i < n; ++i) {
-        char c; cin >> c;
+    for (int i = 0; i < n; ++i)
+    {
+        char c;
+        cin >> c;
         arr += c;
     }
     string name = "28tech";
     int st = 0;
-    for(char c : name) {
+    for (char c : name)
+    {
         auto it = arr.find(c, st);
-        if(it != string::npos and it % 2 == 0)
+        if (it != string::npos and it % 2 == 0)
             st = it + 1;
-        else {
+        else
+        {
             cout << "HCET82\n";
-            return 0;    
+            return 0;
         }
     }
     cout << "28TECH\n";

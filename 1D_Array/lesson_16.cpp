@@ -31,10 +31,6 @@ bool check(int n) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
     int n; cin >> n;
     int cnt1 = 0, cnt2 = 0, cnt3 = 0, cnt4 = 0;
     for(int i = 0; i < n; ++i) {

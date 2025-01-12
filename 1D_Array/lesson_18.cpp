@@ -9,10 +9,6 @@ bool Check(int a, int b) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
     int n; cin >> n;
     bool ok[n] = {false};
     int a[n];

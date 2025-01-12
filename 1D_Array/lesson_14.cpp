@@ -14,12 +14,7 @@ ll GCD(ll a, ll b) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
-    int n; cin >> n;
-    int val;
+    int n, val; cin >> n;
     for(int i = 0; i < n; ++i) {
         int x; cin >> x;
         if(i == 0) val = x;

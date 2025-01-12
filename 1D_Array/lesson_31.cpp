@@ -5,10 +5,6 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
     int n, m, p; cin >> n >> m >> p;
     int a[n]; for(int &x : a) cin >> x;
     for(int i = 0; i < n; ++i) {

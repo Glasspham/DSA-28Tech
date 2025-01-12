@@ -15,10 +15,6 @@ bool Check(ll n) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
     bool f = true;
     int n; cin >> n;
     for(int i = 0; i < n; ++i) {
@@ -51,10 +47,6 @@ bool Check(ll num) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
     sieve();
     bool f = true;
     int n; cin >> n;

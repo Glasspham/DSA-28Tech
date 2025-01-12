@@ -2,10 +2,8 @@
 using namespace std;
 
 int main() {
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
     int n; cin >> n;
     int a[n];
     for(int &x : a) cin >> x;
