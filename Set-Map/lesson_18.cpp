@@ -5,10 +5,6 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
     map<string, int> mp;
     int fmin = INT_MAX, fmax = INT_MIN;
     string s, smax, smin;
