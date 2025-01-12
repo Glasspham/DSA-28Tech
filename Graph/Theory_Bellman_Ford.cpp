@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 #define ll long long
 #define INF 1e9
@@ -71,40 +71,45 @@ bool negativeCycle() {
 
 #if 1 // Danh sách kề
 int n, m, s, d[1000005];
-vector<pair<int,int>> adj[1000005];
+vector<pair<int, int>> adj[1000005];
 
-void Input() {
+void Input()
+{
     cin >> n >> m;
-    for(int i = 0; i < m; ++i) {
-        int x, y, w; cin >> x >> y >> w;
+    for (int i = 0; i < m; ++i)
+    {
+        int x, y, w;
+        cin >> x >> y >> w;
         adj[x].push_back({w, y});
         adj[y].push_back({w, x});
     }
 }
 
-void BellmanFord(int s) {
+void BellmanFord(int s)
+{
     fill(d + 1, d + n + 1, INF);
     d[s] = 0;
-    for(int i = 0; i < n - 1; ++i) {
-        for(int u = 1; u <= n; ++u) {
-            for(auto it : adj[u]) {
+    for (int i = 0; i < n - 1; ++i)
+    {
+        for (int u = 1; u <= n; ++u)
+        {
+            for (auto it : adj[u])
+            {
                 int v = it.second, w = it.first;
                 d[v] = min(d[v], d[u] + w);
             }
         }
     }
-    for(int i = 1; i <= n; ++i)
+    for (int i = 1; i <= n; ++i)
         cout << d[i] << ' ';
 }
 #endif
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
+
     Input();
     BellmanFord(1);
     return 0;

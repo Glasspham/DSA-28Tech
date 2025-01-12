@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 using ll = long long;
@@ -35,38 +35,44 @@ int main(){
 
 #if 1 // DSU
 int n, m, parent[1000001], sz[1000001];
-int Find(int u) {
-    if(u == parent[u]) return u;
-    else return parent[u] = Find(parent[u]);
+int Find(int u)
+{
+    if (u == parent[u])
+        return u;
+    else
+        return parent[u] = Find(parent[u]);
 }
 
-bool Union(int u, int v) {
+bool Union(int u, int v)
+{
     u = Find(u);
     v = Find(v);
-    if(u == v) return false;
-    if(sz[u] < sz[v]) swap(u, v);
+    if (u == v)
+        return false;
+    if (sz[u] < sz[v])
+        swap(u, v);
     sz[u] += sz[v];
     parent[v] = u;
     return true;
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
+
     cin >> n >> m;
-    for(int i = 1; i <= n; ++i)
+    for (int i = 1; i <= n; ++i)
         parent[i] = i;
-    for(int i = 0; i < m; ++i) {
-        int u, v; cin >> u >> v;
+    for (int i = 0; i < m; ++i)
+    {
+        int u, v;
+        cin >> u >> v;
         Union(u, v);
     }
     int cnt = 0;
-    for(int i = 1; i <= n; ++i)
-        if(i == parent[i])
+    for (int i = 1; i <= n; ++i)
+        if (i == parent[i])
             ++cnt;
     cout << cnt;
     return 0;
