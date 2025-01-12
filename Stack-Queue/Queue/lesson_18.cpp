@@ -49,10 +49,6 @@ int BFS() {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../../Text.inp", "r", stdin);
-    freopen("../../Text.out", "w", stdout);
-    #endif
     getline(cin, s);
     getline(cin, t);
     s.erase(remove(s.begin(), s.end(), ' '), s.end());

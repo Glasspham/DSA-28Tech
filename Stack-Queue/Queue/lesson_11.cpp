@@ -24,10 +24,6 @@ void solve() {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../../Text.inp", "r", stdin);
-    freopen("../../Text.out", "w", stdout);
-    #endif
     int t; cin >> t;
     while(t--) solve();
     return 0;

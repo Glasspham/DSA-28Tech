@@ -5,10 +5,6 @@ const int mod = 1e9 +7;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../../Text.inp", "r", stdin);
-    freopen("../../Text.out", "w", stdout);
-    #endif
     int n; cin >> n;
     priority_queue<int, vector<int>, greater<int>> pq;
     for(int i = 0; i < n; ++i) {

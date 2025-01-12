@@ -16,10 +16,6 @@ R[] = 1 5 3 5 5 7 7
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../../Text.inp", "r", stdin);
-    freopen("../../Text.out", "w", stdout);
-    #endif
     int n; cin >> n;
     int a[n], L[n], R[n];
     stack<int> st;

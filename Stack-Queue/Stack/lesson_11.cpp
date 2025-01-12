@@ -9,10 +9,6 @@ int pre(char c) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
     string s; cin >> s;
     stack<char> st;
     string res;

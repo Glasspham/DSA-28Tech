@@ -15,10 +15,6 @@ SR  2 -1 4 -1 -1 smaller right
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../../Text.inp", "r", stdin);
-    freopen("../../Text.out", "w", stdout);
-    #endif
     int n; cin >> n;
     int a[n], GR[n];
     stack<int> st;

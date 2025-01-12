@@ -25,10 +25,6 @@ int BFS(int x, int y, int t1, int t2) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../../Text.inp", "r", stdin);
-    freopen("../../Text.out", "w", stdout);
-    #endif
     int n; cin >> n;
     while(n--) {
         string st, en; cin >> st >> en;

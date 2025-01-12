@@ -8,10 +8,6 @@ stack<int> st;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../../Text.inp", "r", stdin);
-    freopen("../../Text.out", "w", stdout);
-    #endif
     cin >> n >> m;
     for(int i = 1; i <= n; ++i) {
         for(int j = 1; j <= m; ++j) {

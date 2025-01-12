@@ -25,10 +25,6 @@ bool check(string s) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    #ifndef GLASS
-    freopen("../Text.inp", "r", stdin);
-    freopen("../Text.out", "w", stdout);
-    #endif
     string s; cin >> s;
     if(check(s)) cout << "YES\n";
     else cout << "NO\n";
