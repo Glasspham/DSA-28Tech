@@ -52,10 +52,6 @@ void Try(int k, int m) {
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    #ifndef GLASS
-    freopen("../../Text.inp", "r", stdin);
-    freopen("../../Text.out", "w", stdout);
-    #endif
     cin >> n;
     #if 1 // Sinh
     ktao();
