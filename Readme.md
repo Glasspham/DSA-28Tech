@@ -2,9 +2,9 @@
 
 ## Giới thiệu Repository
 
-| DSA |
-|------|
-| <img src="https://github.com/devicons/devicon/blob/master/icons/thealgorithms/thealgorithms-original-wordmark.svg" title="C++"  alt="C++" width="55" height="55"/> |
+| DSA | C++ |
+|------|------|
+| <img src="https://github.com/devicons/devicon/blob/master/icons/thealgorithms/thealgorithms-original-wordmark.svg" title="DSA"  alt="DSA" width="55" height="55"/> |<img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++"  alt="C++" width="55" height="55"/> |
 
 Cấu trúc dữ liệu & giải thuật (Data Structure & Algorithms) còn viết tắt là DSA. Đây là khóa DSA của 28Tech (27/03/2023-19/04/2023).
 
