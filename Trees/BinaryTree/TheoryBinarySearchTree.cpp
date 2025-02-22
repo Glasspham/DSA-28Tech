@@ -54,3 +54,29 @@ node* deleteNode(node* root, int x) {
         }
     } return root;
 }
+
+int sumNode(node* root) {
+    if(!root) return 0;
+    return root->data + sumNode(root->left) + sumNode(root->right);
+}
+
+int countNode(node* root) {
+    if(!root) return 0;
+    return 1 + countNode(root->left) + countNode(root->right);
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    node *root = makeNode(10);
+    insert(root, 5);
+    insert(root, 15);
+    insert(root, 3);
+    insert(root, 7);
+    insert(root, 12);
+    insert(root, 18);
+    insert(root, 20);
+    cout << sumNode(root) << endl;
+    cout << countNode(root) << endl;
+    return 0;
+}
